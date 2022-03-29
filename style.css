@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Secular+One&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+nav{
+    display: flex;
+}
+
+nav .img{
+
+    padding: 50px;
+    padding-left: 70px;
+
+}
+nav .img img {
+    border-radius: 20px;
+
+    /* box-shadow: 10px 10px 5px 2px rgb(126, 126, 175); */
+    /* box-shadow: 0 0 25px grey; */
+}
+
+nav .title{
+    width: 575px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+nav .title p{
+    color: yellow;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+}
+nav .title span{
+    color: white;
+    padding-left: 90px;
+    padding-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+
+}
+
+.images{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.images img{
+    margin: 37.5px 0px;
+}
+nav .info {
+    margin-top: 30px;
+    padding: 40px;
+    padding-left: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    display: grid;
+    color: white;
+    width: 500px;
+    list-style: none;
+}
+nav .info .box{
+    padding: 20px;
+    /* border: 2px solid white; */
+}
+
+
+
+main .line{
+    height: 7px;
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+}
+
+
+.container{
+    display: flex;
+}
+.container .about{
+    width: 50vw;
+    padding: 50px;
+    padding-left: 120px;
+    padding-right: -100px;
+    color: white;
+    
+}
+.container .about .about-title{
+   font-size: 70px;
+   font-family: 'Bebas Neue', cursive;
+
+}
+.container .about .about-para{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    padding-right: 10vw;
+}
+
+.container .sideimg{
+    /* padding-left: 50px; */
+    padding-top: 50px;
+}
+.container .sideimg img{
+    border-radius: 10px;
+    
+}
+
+main .line2{
+    height: 7px;
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 20px;
+}
+
+.education{
+    width: 25vw;
+    padding: 50px;
+    padding-top: 0px;
+    padding-left: 8vw;
+}
+.education .edu-title{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.education .edu-main1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.education .edu-main2{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+
+}
+
+.certifications{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15vw;
+}
+
+.cert-title{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.certall{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.line3{
+    height: 7px;
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container3{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.skill-title{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+
+
+}
+
+
+.skill-box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.skills{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.interests{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10vw;
+}
+
+.intr-title{
+    font-size: 40px;
+    
+}
+
+.intr{
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.work{
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+.work2{
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: 30px;
+
+}
+
+
+.work-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+.line4{
+    height: 7px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socm-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+.socm-img{
+    display: flex;
+    flex-direction: row;
+}
+.socm-img img{
+    width: 100px;
+}
+
+.github-logo{
+    /* margin-top: 15px; */
+    margin-left: 12px;
+    padding: 20px;
+    
+}
+
+.cv{
+    font-size: 5vw;
+    color: white;
+    text-decoration: none;
+    margin-left: 13vw;
+}
+
+.cv:hover{
+    color: red;
+}
+
+.socm-img img:hover{
+    border: 2px solid grey;
+}
